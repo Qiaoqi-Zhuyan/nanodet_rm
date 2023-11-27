@@ -10,8 +10,9 @@ goal: label (red/blue + num), p1->p4 (解算世界坐标系下位置)
 
 filter: 
 
+0. 本质问题是如何做到关键点回归...
 1. 如何过滤非同一个装甲板上的四个点? 注意保证p1 ~ p4 的这八个数据属于同一个装甲板
-2. 装甲板跳变问题
+2. 装甲板跳变问题: 可以在之后的滤波中, 设置
 
 
 # Reference
@@ -24,6 +25,8 @@ https://github.com/xinyang-go/LabelRoboMaster
 ## 4-key-point 参考:
 
 https://github.com/zRzRzRzRzRzRzR/YOLO-of-RoboMaster-Keypoints-Detection-2023
+
+https://github.com/Harry-hhj/CVRM2021-sjtu/tree/main
 
 
 ## 部署参考:

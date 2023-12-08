@@ -27,6 +27,18 @@ https://github.com/xinyang-go/LabelRoboMaster
 
 将RMUL不会用到的(前哨战, 死亡目标), 不对其进行标注, 作为负样本
 
+一行共计9个数字，以空格分割。从左到右依次为：
+
+- 装甲板类别编号
+- 左上角归一化x坐标
+- 左上角归一化y坐标
+- 左下角归一化x坐标
+- 左下角归一化y坐标
+- 右下角归一化x坐标
+- 右下角归一化y坐标
+- 右上角归一化x坐标
+- 右上角归一化y坐标
+
 ## 4-key-point 参考:
 
 https://github.com/zRzRzRzRzRzRzR/YOLO-of-RoboMaster-Keypoints-Detection-2023

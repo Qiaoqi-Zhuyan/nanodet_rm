@@ -14,6 +14,11 @@ filter:
 1. 如何过滤非同一个装甲板上的四个点? 注意保证p1 ~ p4 的这八个数据属于同一个装甲板
 2. 装甲板跳变问题: 可以在之后的滤波中, 设置
 
+## 修改:
+原本检测头中的reg 分支由bbox 改为装甲板四点(x1 y1, x2 y2, x3 y3, x4 y4)
+不再回归xywh, 
+
+CoordConv 提高角点的检测
 
 # Reference
 ## label 参考:
@@ -27,6 +32,7 @@ https://github.com/xinyang-go/LabelRoboMaster
 https://github.com/zRzRzRzRzRzRzR/YOLO-of-RoboMaster-Keypoints-Detection-2023
 
 https://github.com/Harry-hhj/CVRM2021-sjtu/tree/main
+
 
 
 ## 部署参考:
